@@ -12,3 +12,5 @@ Or use the startup script
     ```bash
     ./run.sh
     ```
+
+Include your model's weight dictionary in the local directory and update the `app.py` file to load the correct weights. Currently, the script loads from `resnet50_gtsrb.pth`.
